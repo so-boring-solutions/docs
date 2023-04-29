@@ -1,0 +1,11 @@
+{
+  "index": {
+    "type": "page",
+    "title": "Nextra",
+    "display": "hidden"
+  },
+  "about": {
+    "type": "page",
+    "title": "关于我们"
+  }
+}
