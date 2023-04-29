@@ -21,20 +21,13 @@ const config: DocsThemeConfig = {
     float: true,
   },
   docsRepositoryBase: 'https://github.com/so-boring-solutions/docs',
-  editLink: {
-    text: null
-  },
-  feedback: {
-    content: null
-  },
   footer: {
     text: `${new Date().getFullYear()} © 无聊解决方案（So Boring Solutions）`,
   },
-  faviconGlyph: "🏃",
-  i18n: [
-    { locale: 'zh', text: '中文' },
-    { locale: 'en', text: 'English' },
-  ],
+  faviconGlyph: "🥱",
+  // i18n: [
+  //   { locale: 'zh-CN', text: '中文' },
+  // ],
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
